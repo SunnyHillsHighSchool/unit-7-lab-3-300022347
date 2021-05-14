@@ -15,7 +15,7 @@ public class ArrayListFunHouse
   ArrayList<Integer> factorList = new ArrayList<Integer>();
   for(int i=1; i<=number;i++)
   {
-    if(number%i==0)
+    if(number%i==0 && i!=number && i!=1)
     {
       factorList.add(i);
     }
